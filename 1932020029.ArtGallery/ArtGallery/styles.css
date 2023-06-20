@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Nunito:wght@500;700;900&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bruno+Ace&family=Macondo&family=Monoton&family=Nunito:wght@500;700;900&family=Roboto:wght@100&family=Rock+Salt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.body {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(rgba(48, 45, 45, 0.3), rgba(48, 45, 45, 0.3)), url("images/bg\ \(1\).jpeg") no-repeat;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    padding: 20px, 100px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2em;
+    color: white;
+    font-family: 'Arizonia', cursive;
+    user-select: none;
+    margin-left: 50px;
+}
+
+.headerLine a {
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+
+.headerLine .Lbutton {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin: 40px;
+    transition: .5s;
+}
+
+.headerLine .Lbutton:hover {
+    background: white;
+    color: #162938;
+}
+
+.title h1 {
+    position: absolute;
+    top: 350%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 40px;
+    font-variant: small-caps;
+    font-family: 'Rock Salt', cursive;
+}
+
+.title h2 {
+    position: absolute;
+    top: 420%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 40px;
+    font-variant: small-caps;
+    font-family: 'Rock Salt', cursive;
+}
+
+.title p {
+
+    position: absolute;
+    top: 500%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 80px;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ptag {
+    position: absolute;
+    top: 600%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 10px;
+    /* font-variant: small-caps; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("images/bg\ \(1\).jpeg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+.form h1 {
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+}
+
+.inputField {
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.inputField i {
+    margin-left: 15px;
+    color: #000000;
+}
+
+form p {
+    text-align: left;
+    font-size: 13px;
+    color: #eaeaea;
+}
+
+form p a {
+    text-decoration: none;
+    color: #eaeaea
+}
+
+.Loginbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Loginbtn button {
+    flex-basis: 48%;
+    background: #ffffff;
+    color: #000000;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: 0;
+    transition: background 1s;
+    justify-content: center;
+}
+
+.Loginbtn button:hover {
+    color: #5fb3bc;
+}
+
+.Signupbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.Signupbtn button{
+    flex-basis: 48%;
+    background: #ffffff;
+    color: #000000;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: 0;
+    transition: background 1s;
+    justify-content: center;
+}
+.Signupbtn button:hover {
+    color: #5fb3bc;
+}
+.reg {
+     height: 10px; 
+    margin-top: 50px;
+}
+
+.notamember {
+    padding-top: 20px;
+    color: #fff;
+}
+
+.memSu {
+    padding-left: 150px;
+    color: #fff;
+}
+
+.haveac {
+    padding-top: 10px;
+    color: #fff;
+}
+
+.memSi {
+    padding-left: 80px;
+    color: #fff;
+}
+
+.inputgroup {
+    height: 380px;
+}
+
+.inputFieldLog {
+    background: #eaeaea;
+    margin: 25px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.inputgroupLog {
+    height: 220px;
+}
+
+.signInbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signInbtn button {
+    flex-basis: 48%;
+    background: #000000;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: 0;
+    transition: background 1s;
+}
+
+.inputFieldLog i {
+    margin-left: 15px;
+    color: #000000;
+}
+
+.galleryheaderLine a {
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.gallerybody {
+    background-color: #000000;
+}
+
+.galleryhead {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 20pt;
+    margin-bottom: 150px;
+}
+
+.cards {
+    width: 30%;
+    background-color: #ffffff;
+    margin: 13px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.cards:hover {
+    box-shadow: 4px 2px 10px white;
+}
+
+.cardimg img {
+    width: 100%;
+}
+
+.titleimg {
+    text-align: center;
+}
+
+.desimg {
+    text-align: center;
+}
+
+.desimg button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #d1a31a;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.desimg button:hover {
+    background-color: #fff;
+}
+
+.contactbody {
+    background: linear-gradient(rgba(48, 34, 34, 0.3), rgba(48, 45, 45, 0.3)), url("images/artists-brushes-paints.png") no-repeat;
+    
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.contacthead {
+    color: #fff;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30pt;
+    /* margin-bottom: 150px; */
+}
+
+#conp {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.contactsec {
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+
+.contactsec i {
+    font-size: 30px;
+    margin: 10px;
+    align-items: center;
+}
+.ccard{
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 78%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.ccard p{
+    padding-top: 140px ;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.ccard h2{
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.col{
+    color: #ffffff;
+}
+.col label{
+    font-size: 20px;
+}
+.col input{
+   background-color: #fff;
+   width: 65%;
+   margin: 10px;
+   left: 20px; 
+   border-radius: 10px;
+}
+.ccol{
+    color: #ffffff;
+    
+}
+.ccol label{
+    font-size: 20px;
+    margin-right: 61%;
+}
+.ccol textarea{
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-bottom: 50px; 
+}
+.bcol{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bcol button{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+.abody {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-color: #5c5a57;
+    /* background: linear-gradient(rgba(30, 1, 1, 0.3), rgba(62, 5, 5, 0.3)),url("images/WhatsApp\ Image\ 2023-05-20\ at\ 11.57.04\ AM.jpeg") no-repeat; */
+}
+ .showpass{
+    color: #ffffff;   
+}
+.abtitle h1{
+    position: absolute;
+    top: 350%;
+    left: 30%;
+    padding-bottom: 60px;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 40px;
+    font-variant: small-caps;
+    font-family: 'Rock Salt', cursive;
+}
+.abtitle h2{
+    position: absolute;
+    top: 420%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 40px;
+    font-variant: small-caps;
+    font-family: 'Rock Salt', cursive;   
+}
+
+#pabtag{
+position: absolute;
+    top: 540%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 20px;
+    font-weight: 10px;
+    /* font-variant: small-caps; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.abimg{
+    width: 20px;
+}
+
+.abcards{
+    width: 30%;
+
+    background-color: #000000;
+    margin: 150px;
+    margin-left: 800px;
+    padding: 5px;
+    
+}
+.abcardimg img{
+    width: 100%;
+}
+
+.abtitleimg {
+    text-align: center;
+    color: #fff;
+}
